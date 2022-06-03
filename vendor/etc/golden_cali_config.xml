@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 主供
+rear camera:s5k3l6  合力泰
+front camera:gc5035  合力泰
+sub camera:olive_ov02a10_ofilm   合力泰
+ 
+二供
+rear camera:hi1336 天实
+front camera:hi556 金康
+sub camera:gc2375h  成像通
+ 
+三供
+third
+rear camera:ov13b10     同兴达
+front camera:gc5035_ly  联益
+sub camera:gc2375h_kg  金康
+四供
+fourth
+rear camera:ov13b10_qt 邱泰
+front camera:hi556_txd   同兴达
+sub camera:gc2375h_kg   金康 -->
+<Sensors>
+    <Item rear_camera="s5k3l6"  sub_camera= "olive_ov02a10_ofilm" filepath="/vendor/lib/dualcali_golden.bin"></Item>
+    <Item rear_camera="hi1336"  sub_camera= "gc2375h" filepath="/vendor/lib/dualcali_golden_2.bin"></Item>
+    <Item rear_camera="ov13b10"  sub_camera= "gc2375h_kg" filepath="/vendor/lib/dualcali_golden_3.bin"></Item>
+    <Item rear_camera="ov13b10_qt"  sub_camera= "gc2375h_kg" filepath="/vendor/lib/dualcali_golden_4.bin"></Item>
+    <!-- HS60 code for HS60-5254 by zhangle at 2020-03-05 start. -->
+    <!-- Mix 1st with 4th, 2nd priority-->
+    <Item rear_camera="s5k3l6"  sub_camera= "gc2375h_kg" filepath="/vendor/lib/dualcali_golden_6.bin"></Item>
+    <!-- Mix 1st with 2nd, 1st priority-->
+    <Item rear_camera="s5k3l6"  sub_camera= "gc2375h" filepath="/vendor/lib/dualcali_golden_5.bin"></Item>
+    <!-- Add for motor change of 3rd vendor. -->
+    <Item rear_camera="ov13b10_change"  sub_camera= "gc2375h_kg" filepath="/vendor/lib/dualcali_golden_3.bin"></Item>
+    <!-- HS60 code for HS60-5254 by zhangle at 2020-03-05 end. -->
+    <Item rear_camera="ov13b10_qt"  sub_camera= "gc02m1_hs60_kg" filepath="/vendor/lib/dualcali_golden_7.bin"></Item>
+    <!-- HS60 code for HS60-5902 by lvzheng at 2021-01-11 start. -->
+    <Item rear_camera="ov13b10_change"  sub_camera= "olive_ov02a10_ofilm" filepath="/vendor/lib/dualcali_golden_7.bin"></Item>
+    <Item rear_camera="ov13b10_change"  sub_camera= "gc2375h" filepath="/vendor/lib/dualcali_golden_7.bin"></Item>
+    <!-- HS60 code for HS60-5902 by lvzheng at 2021-01-11 end. -->
+</Sensors>

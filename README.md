@@ -1,0 +1,14 @@
+# m01qins-user 10 QP1A.190711.020 M015GXXU3AUC2 release-keys
+- manufacturer: 
+- platform: msm8937
+- codename: m01q
+- flavor: m01qins-user
+- release: 10
+- id: QP1A.190711.020
+- incremental: M015GXXU3AUC2
+- tags: release-keys
+- fingerprint: samsung/m01qins/m01q:10/QP1A.190711.020/M015GXXU3AUC2:user/release-keys
+- is_ab: false
+- brand: samsung
+- branch: m01qins-user-10-QP1A.190711.020-M015GXXU3AUC2-release-keys
+- repo: samsung_m01q_dump
